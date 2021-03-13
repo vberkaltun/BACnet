@@ -2,20 +2,20 @@ using System.Xml.Serialization;
 
 namespace System.IO.BACnet.Storage
 {
-    [Serializable]
-    public class Object
-    {
-        [XmlAttribute]
-        public BacnetObjectTypes Type { get; set; }
+	[Serializable]
+	public class Object
+	{
+		[XmlAttribute]
+		public BacnetObjectTypes Type { get; set; }
 
-        [XmlAttribute]
-        public uint Instance { get; set; }
+		[XmlAttribute]
+		public uint Instance { get; set; }
 
-        public Property[] Properties { get; set; }
+		public Property[] Properties { get; set; }
 
-        public Object()
-        {
-            Properties = new Property[0];
-        }
-    }
+		public Object()
+		{
+			Properties = new Property[0];
+		}
+	}
 }

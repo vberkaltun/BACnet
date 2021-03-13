@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BACnet", "BACnet.csproj", "{66832876-01FC-4B7C-8D92-54195773FABF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BACnet", "BACnet.csproj", "{E53EAD2A-F57E-4CFE-AACD-64913BEE47EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{66832876-01FC-4B7C-8D92-54195773FABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{66832876-01FC-4B7C-8D92-54195773FABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{66832876-01FC-4B7C-8D92-54195773FABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{66832876-01FC-4B7C-8D92-54195773FABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53EAD2A-F57E-4CFE-AACD-64913BEE47EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53EAD2A-F57E-4CFE-AACD-64913BEE47EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53EAD2A-F57E-4CFE-AACD-64913BEE47EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53EAD2A-F57E-4CFE-AACD-64913BEE47EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C39F8B9-DBDF-45A7-B1CA-87BF0D7A60B0}
 	EndGlobalSection
 EndGlobal

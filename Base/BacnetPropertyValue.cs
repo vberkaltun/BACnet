@@ -2,15 +2,15 @@ using System.Collections.Generic;
 
 namespace System.IO.BACnet
 {
-    public struct BacnetPropertyValue
-    {
-        public BacnetPropertyReference property;
-        public IList<BacnetValue> value;
-        public byte priority;
+	public struct BacnetPropertyValue
+	{
+		public BacnetPropertyReference property;
+		public IList<BacnetValue> value;
+		public byte priority;
 
-        public override string ToString()
-        {
-            return property.ToString();
-        }
-    }
+		public override string ToString()
+		{
+			return property.ToString();
+		}
+	}
 }
